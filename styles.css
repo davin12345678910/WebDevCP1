@@ -1,0 +1,89 @@
+/*
+  Davin Win Kyi
+  03/29/2022
+  Section AH, Allan Tran and Marina Wooden
+
+  This is styles.css which will be used by both other.html and about.html.
+  This will allow us to give the correct fonts,colors,font styles,magins,
+  cursor behavior, and more for our webpages!
+*/
+
+/*
+  Note: This body rule set is to get you started
+*/
+body {
+  background-color: gray;
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/*
+Got tips on how to make a box from:
+https://www.w3schools.com/css/css_boxmodel.asp
+
+These are for the clickabel links
+*/
+#link, #about-me {
+  width: 350px;
+  border: 10px blue;
+  font-size: 25px;
+}
+
+/*
+Thisis fo the intro
+*/
+#intro {
+  font-size: 30px;
+  margin-bottom: 50;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*
+This is an example use of the combinitoral selector
+*/
+#intro > #emphasis, #name, #club-name {
+  color: lightblue;
+}
+
+/*
+This is to make some of the text in the html large
+*/
+.font75 {
+  font-size: 75px;
+}
+
+/*
+This is for the title
+*/
+.title {
+  color: blue;
+  font-size: 28;
+}
+
+/*
+These are for the list items
+*/
+.list {
+  color: navy;
+  font-size: 30;
+  margin-bottom: 70px;
+  margin-left: "1000";
+}
+
+/*
+This is an example use of a grouped selector
+*/
+#happy, #sad, #repo {
+  font-size: 35;
+  font-weight: bold;
+}
+
+/*
+CSS pseudo-classes as taught in lecture.
+*/
+a:hover {
+  color: yellow;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+/*
+  Davin Win Kyi
+  03/29/2022
+  Section AH, Allan Tran and Marina Wooden
+
+  This is the about.css file used by about.css. This file will allow us to
+  correctly fit in images into our about.css file and center properly as well.
+*/
+
+/*
+This is to make an image large
+*/
+.image-size-large {
+  height: 300px;
+  width: 500px;
+}
+
+/*
+This is to make an iamge small
+*/
+#image-size-small {
+  height: 50px;
+  width: 50px;
+}
+
+/*
+This is to center the items
+*/
+.centerclass {
+  text-align: center;
+  list-style: inside;
+}
